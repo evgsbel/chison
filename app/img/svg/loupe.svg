@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="loupe" width="75" height="76" viewBox="0 0 75 76" fill="none">
+        <path d="M34.5 24V45M24 34.5L45 34.5" stroke="white" stroke-width="2"/>
+        <path d="M58.5 59L74 74.5" stroke="white" stroke-width="2"/>
+        <circle cx="34.5" cy="34.5" r="33.5" stroke="white" stroke-width="2"/>
+    </symbol>
+</svg>

@@ -24,6 +24,7 @@ ul
   line-height: 50px
   text-align: center
   font-family: $bold
+  margin-bottom: 50px
   &_white
     color: #fff
 .upper
@@ -45,9 +46,65 @@ ul
   padding: 0 44px
   box-sizing: border-box
   &_active, &:hover
-    background: linear-gradient(180deg, rgba(53, 151, 205, 0) 0%, #3597CD 100%)
+    background: linear-gradient(180deg, rgba(53, 151, 205, 0) 0%, #3597CD 0%)
     color: #fff
-
+.slider-arrow__wrapper
+  max-width: 1170px
+  margin: 0 auto
+  width: 100%
+  position: absolute
+  right: 0
+  left: 0
+  top: 40%
+.slider-arrow
+  width: 45px
+  height: 45px
+  -webkit-border-radius: 50%
+  -moz-border-radius: 50%
+  border-radius: 50%
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.3) 0%, rgba(255, 255, 255, 0) 100%)
+  border: 1px solid #9E9E9E
+  box-sizing: border-box
+  position: absolute
+  transition: background-color 0.3s ease-in-out
+  svg
+    transition: stroke 0.5s ease-in-out
+    stroke: #101010
+  &:hover
+    background-color: #0774BC
+    border: 1px solid #0774BC
+  &:hover svg
+    stroke: #fff
+  &:focus
+    outline: none
+    border: none
+  &_prev
+    left: 0
+  &_next
+    right: 0
+.dots
+  position: absolute
+  bottom: 45px
+  left: 0
+  right: 0
+  margin: 0 auto
+  max-width: 930px
+  &__item
+    border: 2px solid #101010
+    box-sizing: border-box
+    width: 18px
+    height: 18px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    border-radius: 50%
+    margin-right: 10px
+    background: transparent
+    &:focus
+      outline: none
+      border: 2px solid #101010
+    &.active
+      background: #fff
+      border: 0
 //common END
 
 //top contacts
@@ -76,7 +133,7 @@ ul
 //top contacts END
 
 //header
-header
+.header
   padding: 30px 0
 .nav
   &__item
@@ -84,6 +141,110 @@ header
     &:last-child
       margin-right: 0
 //header END
+
+// banner
+.banner
+  height: 480px
+  background-color: rgba(158, 158, 158, 0.7)
+  &__content
+    padding-top: 60px
+  &__title
+    font-size: 45px
+    color: #101010
+    line-height: 54px
+    text-transform: uppercase
+    font-family: $bold
+  &__subtitle
+    font-size: 45px
+    color: #101010
+    line-height: 54px
+    margin-bottom: 40px
+  &__btn
+    text-transform: uppercase
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.16) 0%, rgba(255, 255, 255, 0) 100%)
+    border: 1px solid #9E9E9E
+// banner END
+
+//advantages
+.advantages
+  padding-top: 60px
+  background: linear-gradient(180deg, #3597CD 100%, rgba(53, 151, 205, 0) 100%)
+  color: #fff
+  &__item
+    width: 20%
+    text-align: center
+    border-width: 1px
+    border-style: solid
+    border-image: linear-gradient(to top, #fff, rgb(53, 151, 205)) 1 100%
+    padding: 0 10px 40px
+    &:first-child, &:last-child
+      border-width: 2px
+  &__img
+    margin-bottom: 35px
+  &__title
+    text-transform: uppercase
+    line-height: 25px
+    font-family: $bold
+//advantages END
+
+//catalog
+.catalog
+  margin-top: 65px
+  &__item
+    margin-bottom: 25px
+    max-width: 48%
+  &__content
+    margin-left: 30px
+  &__title
+    font-size: 30px
+    line-height: 33px
+    color: #0774bc
+    font-family: $bold
+    margin-bottom: 30px
+  &__button
+    margin-top: 25px
+//catalog END
+
+//about
+.about
+  background: #d3dce3
+  margin: 75px 0 0
+  padding-top: 70px
+  padding-bottom: 35px
+  .title
+    margin-bottom: 40px
+    text-align: left
+  span
+    color: $blue
+    text-transform: uppercase
+  p
+    margin-bottom: 40px
+  &__img
+    position: relative
+    margin-bottom: 25px
+    &:nth-child(odd)
+      margin-right: 25px
+    img
+      max-width: 100%
+  &__hover
+    opacity: 0
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background: rgba(7, 116, 188, 0.8)
+    transition: opacity 0.3s ease-in-out
+    cursor: pointer
+  &__img:hover .about__hover
+    opacity: 1
+//about END
+
+//map
+.map
+  img
+    max-width: 100%
+//map END
 
 
 
