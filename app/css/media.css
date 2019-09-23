@@ -1,0 +1,102 @@
+@media (max-width: 1199.98px) {
+  .map {
+    max-height: 100%;
+    overflow: hidden; }
+  .nav__wrapper {
+    margin-top: 25px; }
+  .banner {
+    background: rgba(158, 158, 158, 0.7) !important; }
+  .about__img {
+    margin-right: 8px !important; }
+  .footer__item_last {
+    padding-left: 15px; }
+  .footer__not-offer {
+    margin: 25px 0;
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 100%; }
+  .button {
+    padding: 0 15px; }
+  .advantages__item {
+    width: 33.3%; }
+  .nav__wrapper {
+    padding-left: 0;
+    margin-left: 0; }
+  .header__logo, .nav {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .dots {
+    padding-left: 15px; }
+  .about__img {
+    margin-right: 25px !important; }
+  .footer__title_height {
+    height: auto; }
+  .footer__title br {
+    display: none; }
+  .footer__item_last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+@media (max-width: 575.98px) {
+  .title, .banner__title, .banner__subtitle {
+    font-size: 35px;
+    line-height: 40px; }
+  .top-contacts {
+    height: auto; }
+  .catalog__item {
+    max-width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(158, 158, 158, 0.7);
+    padding-bottom: 10px; }
+  .catalog__img {
+    margin: 0 auto; }
+  .dots {
+    display: none; }
+  .advantages__item {
+    width: 50%;
+    margin-bottom: 15px; }
+  .advantages__wrapper {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .nav__wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .nav__item {
+    margin-bottom: 15px; }
+  .top-contacts__inner {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .top-contacts__time {
+    padding: 15px 0; }
+  .footer__item_last {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0; }
+  .footer__logo {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .footer__logo svg {
+      margin-bottom: 15px; }
+  .footer__akticom {
+    margin-top: 15px; }
+    .footer__akticom p {
+      padding: 0; }
+  .about__img {
+    margin: 25px auto !important; }
+  .about .title {
+    font-size: 32px; }
+  .top-contacts__phone {
+    padding: 15px;
+    text-align: left; }
+  .catalog__content {
+    margin-left: 0; } }
